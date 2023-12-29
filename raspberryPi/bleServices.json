@@ -1,0 +1,20 @@
+{
+  
+    "services":[
+        {"service":"DhtTwoService",
+        "uuid":"BLE ID",
+        "char":[
+            {"name":"temperature","uuid":"BLE ID","datatype":"float","unit":"Fahrenheit"},
+            {"name":"Humidity","uuid":"BLE ID","datatype":"float","unit":"rH"}
+            ]
+        },
+        {"service":"airConditionService",
+        "uuid":"BLE ID",
+        "char":[
+            {"name":"temperature","uuid":"BLE ID","datatype":"float","unit":"Fahrenheit"},
+            {"name":"Humidity","uuid":"BLE ID","datatype":"float","unit":"rH"}
+            ]
+        }
+
+    ]
+}
